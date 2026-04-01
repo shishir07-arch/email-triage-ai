@@ -8,7 +8,7 @@ A small tool I built that takes customer support emails and figures out what typ
 
 ### 1. Clone the repo
 ```
-git clone <your-repo-url>
+git clone <https://github.com/shishir07-arch/email-triage-ai.git>
 cd email-triage-ai
 ```
 
