@@ -62,7 +62,7 @@ Read the email below and return ONLY the following in this exact format:
 Category: <Billing / Bug Report / How-to>
 Urgency: <High / Medium / Low>
 Reason: <one sentence explaining why>
-Suggested Assignee: <pick the most suitable person from the team above based on their role>
+Suggest Assignee: <pick the most suitable person from the team above based on their role. If nobody on the team is suitable for the issue, say "No suitable assignee found.">
 
 Rules:
 - Billing = payment, invoice, charge, refund, subscription questions
@@ -72,6 +72,7 @@ Rules:
 - Medium urgency = issue is affecting work but not critical
 - Low urgency = general question, no time pressure
 - Only suggest someone from the provided team list
+- If the email category does not match any team member's role, suggest "No suitable assignee found" and explain why in the Reason field
 
 Email:
 {email_input}
