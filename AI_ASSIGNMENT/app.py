@@ -59,10 +59,10 @@ Here is the available team:
 {team_list}
 
 Read the email below and return ONLY the following in this exact format:
-Category: <Billing / Bug Report / How-to>
+Category: <Billing / Bug Report / Logistics / How-to>
 Urgency: <High / Medium / Low>
 Reason: <one sentence explaining why>
-Suggest Assignee: <pick the most suitable person from the team above based on their role. If nobody on the team is suitable for the issue, say "No suitable assignee found.">
+Suggested Assignee: <pick the most suitable person from the team above based on their role. If nobody on the team is suitable for the issue, say "No suitable assignee found.">
 
 Rules:
 - Billing = payment, invoice, charge, refund, subscription questions
